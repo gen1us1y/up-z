@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир Геометрии</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            color: #333;
+        }
+        header {
+            background-color: #4a6fa5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffcc00;
+            font-size: 18px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #4a6fa5;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        h2 {
+            font-size: 40px;
+            margin-top: 30px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #e0e7f0;
+            font-size: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #7f9abc;
+        }
+        form {
+            margin: 20px 0;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        .social-icons img {
+            width: 32px;
+            height: 32px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Добро пожаловать в мир геометрии!</h1>
+        <nav>
+            <a href="#about">О геометрии</a>
+            <a href="#shapes">Фигуры</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Что такое геометрия?</h2>
+            <p><em>Геометрия</em> — это раздел математики, изучающий <strong>свойства фигур</strong> и пространства.</p>
+            <p>Слово «геометрия» происходит от греческих слов «земля» и «мера».</p>
+            <img src="https://drive.google.com/file/d/191oRtmf1LTO1_5gJdS3ltM2RX6qQRfXb" alt="Евклид">
+        </section>
+
+        <section id="shapes">
+            <h2>Основные фигуры</h2>
+            <p>В геометрии изучаются как плоские, так и объемные фигуры.</p>
+            <table>
+                <tr>
+                    <th>Название</th>
+                    <th>Тип</th>
+                    <th>Количество углов</th>
+                </tr>
+                <tr>
+                    <td>Треугольник</td>
+                    <td>Плоская</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Квадрат</td>
+                    <td>Плоская</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Куб</td>
+                    <td>Объемная</td>
+                    <td>8</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="feedback">
+            <h2>Форма обратной связи</h2>
+            <form>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4"></textarea><br>
+
+                <input type="submit" value="Отправить">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Контакты: г. Москва, ул. Математическая, д. 1 | Тел: +7 (123) 456-78-90</p>
+        <div class="social-icons">
+            <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/vk.svg" alt="ВКонтакте"></a>
+            <a href="#"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/telegram.svg" alt="Telegram"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
